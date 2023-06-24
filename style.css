@@ -204,8 +204,8 @@ main {
 .news {
     background-color:rgb(106, 235, 106);
     border-radius: 30px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
     height: 25em;
 }
