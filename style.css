@@ -1,5 +1,10 @@
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: rgb(197, 211, 241);
+    /*background-color: rgb(197, 211, 241);*/
+    background-image: linear-gradient(rgb(41, 197, 218), rgb(0, 34, 102));
     color: black;
     font-family: 'Mochiy Pop One';
     height: 100%;
@@ -31,7 +36,7 @@ main {
     #outline-color: blanchedalmond;*/
     outline-width: 2.5px;
     outline-offset: 2px;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     max-width: 100%;
 }
 
@@ -100,7 +105,7 @@ main {
     background-color: rgb(136, 195, 247);
     color:rgb(121, 106, 185);
     transition: 0.5s;
-    box-shadow: 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 5px 10px rgba(0,0,0,0.4);
 }
 
 .navbar a.active {
@@ -127,7 +132,7 @@ main {
     width: 350px;
     height: 120px;
     background: #FFFFFF;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     border-radius:100px;
 }
 
@@ -154,22 +159,22 @@ main {
 }
 
 .info {
-    background-color: rgb(235, 236, 163);
+    background-color: rgb(80 136 236);
     border-radius: 30px;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: 25em;
     
 }
 
 .gal {
-    background-color: rgb(163, 227, 236);
+    background-color: rgb(80 136 236);
     border-radius: 30px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
-    height: 19em;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    height: 29em;
     
 }
 
@@ -179,7 +184,7 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
 .gal h3 {
     margin-left: 5%;
@@ -192,21 +197,25 @@ main {
     /*width: 384px;
     height: 216px;*/
     max-width: 80%;
-    max-height: 70%;
-    margin: auto;
+    max-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0%;
     display: block;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
     
 }
 
 .news {
-    background-color:rgb(106, 235, 106);
+    /*background-color:rgb(106, 235, 106);*/
+    background-color:rgb(80 136 236);
     border-radius: 30px;
     margin-left: 12.5%;
     margin-right: 12.5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: 25em;
 }
 .news h1 {
@@ -215,7 +224,7 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
 .news h3 {
     margin-left: 5%;
@@ -233,18 +242,73 @@ main {
     display: block;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
     transition: 0.5s;
 }
 .news img:hover {
     transform: scale(1.2,1.2);
+}
+.rec {
+    /*background-color:rgb(106, 235, 106);*/
+    background-color:rgb(80 136 236);
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    height: 25em;
+    text-align: center;
+}
+.rec h1 {
+
+    font-family: 'Tsukimi Rounded';
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(29, 24, 2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
+}
+.rec h3 {
+    margin-left: 5%;
+    font-family: "Gamja Flower";
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.rec img {
+    /*width: 384px;
+    height: 216px;*/
+    max-width: 80%;
+    max-height: 70%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    transition: 0.5s;
+}
+.rec a {
+    background-color: rgb(83, 83, 189);
+    border-radius: 30px;
+    font-size: 4em;
+    max-height: auto;
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
+    text-align: center;
+    float: none;
+    color:rgb(172, 172, 253);
+    border-radius: 100px;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    padding: 10px 10px;
+    text-decoration: dashed;
+    font-size: 2em;
+    transition: 0.5s;
+    transform:translateY(-50%)
 }
 .info h1 {
     font-family: 'Tsukimi Rounded';
     font-weight: bolder;
     text-align: center;
     color:rgb(54, 45, 4);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
     
 }
 .info h3 {
@@ -281,7 +345,7 @@ main {
     border-radius: 30px;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: justify;
 }
 
@@ -290,7 +354,7 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(26, 21, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
 
 .events h2 {
@@ -298,7 +362,7 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(26, 21, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
 
 .events hr {
@@ -315,7 +379,7 @@ main {
 .events img:hover {
     transform: scale(1.35,1.35);
     transition: 0.5s;
-    box-shadow: 0px 0px 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 0 5px rgba(0,0,0,0.4);
 }
 .ev-flex-container {
     display: flex;
@@ -338,7 +402,19 @@ main {
     margin-bottom: 1%;
     font-weight: 1000000;
     text-align: center;
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
+
+}
+
+.evHead h2 {
+    font-family: 'Fredoka';
+    color: darkblue;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 1%;
+    font-weight: 1000000;
+    text-align: center;
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 
 }
 
@@ -347,7 +423,7 @@ main {
     border-radius: 30px;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: justify;
     outline-style: dashed;
     outline-width: 0.3em;
@@ -359,7 +435,7 @@ main {
     text-align: center;
     font-size: 36px;
     margin-bottom: 0;
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 
 }
 
@@ -379,6 +455,7 @@ main {
 
 .co-flex-child {
     flex: 1;
+    
 }
 
 .cont {
@@ -394,7 +471,7 @@ main {
     background-color: rgb(136, 195, 247);
     color:rgb(121, 106, 185);
     transition: 0.5s;
-    box-shadow: 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 5px 10px rgba(0,0,0,0.4);
     margin-left: 5%;
     margin-right: 5%;
     width: justify;
@@ -416,7 +493,7 @@ main {
     border-radius: 30px;
     margin-left: 15%;
     margin-right: 15%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: auto;
     vertical-align: middle;
 }
@@ -426,7 +503,7 @@ main {
     font-weight: bolder;
     text-align: justify;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
     margin-left: 1.25%;
 }
 
@@ -458,7 +535,7 @@ main {
     margin-left: 7.5%;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
     transition: 0.5s;
     vertical-align: middle;
     margin-top: 3.25%;
@@ -481,7 +558,7 @@ main {
     border-radius: 30px;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: 25em;
 }
 .infoinfo h1 {
@@ -490,13 +567,17 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
 .infoinfo h3 {
     margin-left: 5%;
     font-family: "Gamja Flower";
     font-size: 1em;
     font-weight: 400;
+}
+.infoinfo img {
+    max-height: 80%;
+    
 }
 
 .info-cont {
@@ -514,7 +595,7 @@ main {
     border-radius: 30px;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: 25em;
 }
 .newsa h1 {
@@ -523,13 +604,14 @@ main {
     font-weight: bolder;
     text-align: center;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
     opacity: 100%;
 }
 .newsa h3 {
-    margin-left: 5%;
+    margin: auto;
+    text-align: center;
     font-family: "Gamja Flower";
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 400;
     opacity: 100%;
 }
@@ -541,7 +623,7 @@ main {
     display: block;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
     transition: 0.5s;
 }
 
@@ -574,7 +656,7 @@ main {
     border-radius: 30px;
     margin-left: 1%;
     margin-right: 1%;
-    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
     height: auto;
     vertical-align: middle;
 }
@@ -584,7 +666,7 @@ main {
     font-weight: bolder;
     text-align: justify;
     color:rgb(29, 24, 2);
-    text-shadow: 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
     margin-left: 1.25%;
 }
 
@@ -616,10 +698,82 @@ main {
     margin-left: 7.5%;
     text-align: center;
     border-radius: 30px;
-    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.4);
     transition: 0.5s;
     vertical-align: middle;
     margin-top: 3.25%;
     margin-bottom: 3.25%;
     float:left;
 }
+.progress-ring__circle {
+    stroke-dasharray: 10 20;
+  }
+
+.social {
+    background-color:rgb(156, 204, 236);
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    height: 10em;
+    vertical-align: middle;
+}
+.social h1 {
+
+    font-family: 'Tsukimi Rounded';
+    font-weight: bolder;
+    text-align: left;
+    color:rgb(29, 24, 2);
+    text-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-left: 1.25%;
+}
+
+.social h2  {
+    font-family: 'Tsukimi Rounded';
+    font-weight: bold;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    margin-left: 3%;
+}
+
+.social h3 {
+    margin-left: 5%;
+    font-family: "Gamja Flower";
+    font-size: 1em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.descsocial {
+    margin-left: 30%;
+}
+
+.social img {
+    /*width: 384px;
+    height: 216px;*/
+    color: red;
+    height: 5em;
+    width: 5em;
+    margin-left: 7.5%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+    vertical-align: middle;
+    margin-top: 3.25%;
+    margin-bottom: 3.25%;
+    float:left;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(hotpink calc(var(--progress-value) * 1%), pink 0);
+    animation: progress 2s 1 forwards;
+  }
