@@ -168,6 +168,49 @@ main {
     
 }
 
+.info meter {
+    margin: 0 auto 4.5em;
+    width: 30em;
+    height: 3em;
+    display: block;
+    color: rgb(0, 0, 0);
+    
+}
+
+.info meter::-webkit-meter-optimum-value {
+    background: rgb(172, 172, 253);
+}
+
+.info meter::-webkit-meter-bar {
+    background: rgb(140, 205, 236);
+    outline: transparent;
+    border: 2px solid;
+}
+
+.service::after {
+    content : "Service Hours:  688/7500";
+    text-align: center;
+    top:-2.4em;
+    left:7em;
+    position:relative;
+}
+
+.ptp::after {
+    content : "PTP Goal:  $3,000";
+    text-align: center;
+    top:-2.4em;
+    left:7em;
+    position:relative;
+}
+
+.dues::after {
+    content : "Dues Paid Goal:  750 Members";
+    text-align: center;
+    top:-2.4em;
+    left:7em;
+    position:relative;
+}
+
 .gal {
     background-color: rgb(80 136 236);
     border-radius: 30px;
@@ -361,6 +404,7 @@ main {
     font-family: 'Tsukimi Rounded';
     font-weight: bolder;
     text-align: center;
+    font-size: 1.5em;
     color:rgb(26, 21, 2);
     text-shadow: 3px 3px rgba(0,0,0,0.4);
 }
