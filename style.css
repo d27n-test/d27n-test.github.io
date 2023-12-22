@@ -188,7 +188,7 @@ main {
 }
 
 .service::after {
-    content : "Service Hours:  688/7500";
+    content : "Service Hours:  1145/7500";
     text-align: center;
     top:-2.4em;
     left:7em;
@@ -821,3 +821,22 @@ main {
       conic-gradient(hotpink calc(var(--progress-value) * 1%), pink 0);
     animation: progress 2s 1 forwards;
   }
+  
+.advisors {
+    background-color: rgb(222, 236, 248);
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 10px 10px rgba(0,0,0,0.4);
+    height: justify;
+    outline-style: dashed;
+    outline-width: 0.3em;
+    outline-color: rgb(214, 231, 247);
+}
+
+.advisors iframe {
+    width: 50%;
+    height: 20em;
+    margin-left: 25%;
+    margin-right: 25%;
+}
